@@ -102,6 +102,13 @@ echo $this->calendar->generate(2006, 6, $data);
 </code></pre>
 
 
+Security Class
+
+<pre><code> Codeigniter tiene una caracteristica muy importante y es que te protege contra el exploit CSRF y la vulnerabilidad XSS, ademas de evitar SQL injection.
+
+Al ser uno de los temas mas complejos se abordara principalmente en la presentacion</pre></code<
+
+
 
 
 Config Class
