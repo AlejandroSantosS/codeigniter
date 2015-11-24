@@ -8,6 +8,8 @@
 
 <img src="http://blog.collectivecloudperu.com/wp-content/uploads/2015/04/111.png">
 
+<h3>Temas a abordar en el proyecto</h1>
+
 <ul>
   <li>Que es CI</li>
   <li>Razones por las que usar CI como framework de desarrollo en seridor.</li>
@@ -17,6 +19,7 @@
   <li>Comparacion de CI frente a otros</li>
   <li>Cracteristicas y potencia de CI</li>
   <li>Clases y librerias de CI</li>
+  <li>Seguridad de CI</li>
   <li>CI en la comunidad de desarrolladores</li>
   <li>CI como framework back mas utilizado</li>
   <li>Aplicacion de CI</li>
