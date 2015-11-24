@@ -21,3 +21,51 @@
   <li>CI como framework back mas utilizado</li>
   <li>Aplicacion de CI</li>
 </ul>
+
+Caching Driver
+
+<pre><code></code></pre>
+
+Calendaring Class
+
+<pre><code>
+$this->load->library('calendar');
+
+$data = array(
+               3  => 'http://example.com/news/article/2006/03/',
+               7  => 'http://example.com/news/article/2006/07/',
+               13 => 'http://example.com/news/article/2006/13/',
+               26 => 'http://example.com/news/article/2006/26/'
+             );
+
+echo $this->calendar->generate(2006, 6, $data);
+</code></pre>
+
+
+Shopping Cart Class
+Config Class
+Email Class
+Encrypt Class
+Encryption Library
+File Uploading Class
+Form Validation
+FTP Class
+Image Manipulation Class
+Input Class
+Javascript Class
+Language Class
+Loader Class
+Output Class
+Pagination Class
+Template Parser Class
+Security Class
+Session Library
+HTML Table Class
+Trackback Class
+Typography Class
+Unit Testing Class
+URI Class
+User Agent Class
+XML-RPC and XML-RPC Server Classes
+Zip Encoding Class
+
