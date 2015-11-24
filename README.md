@@ -11,18 +11,19 @@
 <h3>Temas a abordar en el proyecto</h1>
 
 <ul>
-  <li>Que es CI</li>
+  <li>¿Que es CI?</li>
   <li>Razones por las que usar CI como framework de desarrollo en seridor.</li>
   <li>Arquitectura MVC</li>
   <li>Pros y Contras del MVC</li>
   <li>Ventajas de usar CI</li>
-  <li>Comparacion de CI frente a otros</li>
+  <li>Comparación de CI frente a otros</li>
   <li>Cracteristicas y potencia de CI</li>
   <li>Clases y librerias de CI</li>
   <li>Seguridad de CI</li>
   <li>CI en la comunidad de desarrolladores</li>
   <li>CI como framework back mas utilizado</li>
-  <li>Aplicacion de CI</li>
+  <li>Aplicación de CI</li>
+  <li>Otros...</li>
 </ul>
 
 <h3>Librerias utilizadas</h3>
