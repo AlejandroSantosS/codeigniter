@@ -164,4 +164,4 @@ User Agent Class
 XML-RPC and XML-RPC Server Classes
 Zip Encoding Class
 
-<h4>Esto solo es un muy pequeño ejemplo de algunas lineas de codigo de CI. La aplicacion que estoy desarrollando es mucho mas compleja de lo que puedo mostrar aqui, para mas informacion podeis enviar un correo a alexdevop@gmail.com</h4>
+<h4>Esto solo es un muy pequeño ejemplo de algunas lineas de codigo de CI, las librerias utilizas que no añado codigo demo simplemente es para no saturar la web de información. La aplicacion que estoy desarrollando es mucho mas compleja de lo que puedo mostrar aqui, para mas informacion podeis enviar un correo a alexdevop@gmail.com</h4>
