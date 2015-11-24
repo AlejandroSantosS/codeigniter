@@ -106,7 +106,7 @@ Security Class
 
 <pre><code> Codeigniter tiene una caracteristica muy importante y es que te protege contra el exploit CSRF y la vulnerabilidad XSS, ademas de evitar SQL injection.
 
-Al ser uno de los temas mas complejos se abordara principalmente en la presentacion</pre></code<
+Al ser uno de los temas mas complejos se abordara principalmente en la presentacion</pre></code>
 
 
 
@@ -139,8 +139,7 @@ if ( ! $foo = $this->cache->get('foo'))
 echo $foo;
 </code></pre>
 
-
-Email Class
+<h4>Otras clases utilizadas</h4>
 
 Encrypt Class
 Encryption Library
@@ -166,3 +165,4 @@ User Agent Class
 XML-RPC and XML-RPC Server Classes
 Zip Encoding Class
 
+<h2>Esto solo es un muy pequeño ejemplo de algunas lideas de codigo de CI. La aplicacion que estoy desarrollando es mucho mas compleja de lo que puedo mostrar aqui, para mas informacion podeis enviar un correo a alexdevop@gmail.com</h2>
