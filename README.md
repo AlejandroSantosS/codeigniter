@@ -139,7 +139,7 @@ if ( ! $foo = $this->cache->get('foo'))
 echo $foo;
 </code></pre>
 
-<h4>Otras clases utilizadas</h4>
+<h4>Otras clases y librerias utilizadas</h4>
 
 <b>Encrypt Class</b>(Muy importante)<br>
 <b>Encryption Library</b>(Muy importante)<br>
