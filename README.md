@@ -55,6 +55,36 @@ $this->cart->insert($data);
 </code></pre>
 
 
+URL helper
+<pre><code>
+Por defecto, las URLs en CodeIgniter están diseñadas para ser amigable a los motores de búsqueda y amigables a los humanos. En vez de usar el estándar acercamiento "query string" para URLs que es sinónimo con sistemas dinámicos, CodeIgniter usa un aproximamiento basado-en-segmentos:
+
+En este caso si tenemos una ruta http://github.com/codeigniter/alejandro
+Obtendriamos la 3º posicion de la url.
+
+$this->load->helper('url');
+
+if ($this->uri->segment(3) === FALSE)
+{
+    $uriseg = 0;
+}
+else
+{
+    $uriseg = $this->uri->segment(3);
+}
+</code></pre>
+
+Form Helper
+
+El archivo del Helper Form contiene funciones que lo ayudan a trabajar con formularios. Ejemplo de formulario simple
+
+<pre><code>$this->load->helper('form');
+  echo form_open('email/send');
+  echo form_input('name','value')
+  echo form_submit('action','value')
+</pre></code>
+
+
 Calendaring Class
 
 <pre><code>
