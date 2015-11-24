@@ -141,28 +141,27 @@ echo $foo;
 
 <h4>Otras clases utilizadas</h4>
 
-Encrypt Class
-Encryption Library
-File Uploading Class
-Form Validation
-FTP Class
-Image Manipulation Class
-Input Class
-Javascript Class
-Language Class
-Loader Class
-Output Class
-Pagination Class
-Template Parser Class
-Security Class
-Session Library
+<b>Encrypt Class</b>(Muy importante)<br>
+<b>Encryption Library</b>(Muy importante)<br>
+File Uploading Class<br>
+<b>Form Validation</b>(Muy importante)<br>
+FTP Class<br>
+Image Manipulation Class<br>
+Input Class<br>
+Javascript Class<br>
+Language Class<br>
+Loader Class<br>
+Output Class<br>
+<b>Pagination Class</b> (Muy importante)<br>
+Template Parser Class<br>
+<b>Session Library</b> (Muy importante)<br>
 HTML Table Class
 Trackback Class
 Typography Class
 Unit Testing Class
-URI Class
+<b>URI Class</b> (Muy importante)<br>
 User Agent Class
 XML-RPC and XML-RPC Server Classes
 Zip Encoding Class
 
-<h2>Esto solo es un muy pequeño ejemplo de algunas lineas de codigo de CI. La aplicacion que estoy desarrollando es mucho mas compleja de lo que puedo mostrar aqui, para mas informacion podeis enviar un correo a alexdevop@gmail.com</h2>
+<h4>Esto solo es un muy pequeño ejemplo de algunas lineas de codigo de CI. La aplicacion que estoy desarrollando es mucho mas compleja de lo que puedo mostrar aqui, para mas informacion podeis enviar un correo a alexdevop@gmail.com</h4>
