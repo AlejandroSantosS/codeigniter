@@ -24,41 +24,6 @@
 
 <h3>Librerias utilizadas</h3>
 
-Caching Driver
-
-<pre><code>
-En el ejemplo siguiente se carga el controlador de memoria caché, APC como driver a utilizar, y cambia a almacenamiento en caché basado en archivo si APC no está disponible en el entorno de alojamiento.
-$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
-
-if ( ! $foo = $this->cache->get('foo'))
-{
-        echo 'Saving to the cache!<br />';
-        $foo = 'foobarbaz!';
-
-        // Save into the cache for 5 minutes
-        $this->cache->save('foo', $foo, 300);
-}
-
-echo $foo;
-</code></pre>
-
-Calendaring Class
-
-<pre><code>
-Agregar datos a las celdas de tu calendario involucra crear un arreglo asociativo en el cual los índices corresponden a los días que desea llenar y el valor del arreglo contiene los datos. El arreglo es pasado al tercer parámetro de la función generar calendario. Considere este ejemplo:
-$this->load->library('calendar');
-
-$data = array(
-               3  => 'http://example.com/news/article/2006/03/',
-               7  => 'http://example.com/news/article/2006/07/',
-               13 => 'http://example.com/news/article/2006/13/',
-               26 => 'http://example.com/news/article/2006/26/'
-             );
-
-echo $this->calendar->generate(2006, 6, $data);
-</code></pre>
-
-
 Shopping Cart Class
 Para agregar un ítem al carrito, podemos utilizar un array multidimensional con la información del producto a la función $this- >cart->insert(), según se muestra aquí:
 <pre><code>$data = array(
@@ -86,12 +51,51 @@ Para agregar un ítem al carrito, podemos utilizar un array multidimensional con
 $this->cart->insert($data);
 </code></pre>
 
+
+Calendaring Class
+
+<pre><code>
+Agregar datos a las celdas de tu calendario involucra crear un arreglo asociativo en el cual los índices corresponden a los días que desea llenar y el valor del arreglo contiene los datos. El arreglo es pasado al tercer parámetro de la función generar calendario. Considere este ejemplo:
+$this->load->library('calendar');
+
+$data = array(
+               3  => 'http://example.com/news/article/2006/03/',
+               7  => 'http://example.com/news/article/2006/07/',
+               13 => 'http://example.com/news/article/2006/13/',
+               26 => 'http://example.com/news/article/2006/26/'
+             );
+
+echo $this->calendar->generate(2006, 6, $data);
+</code></pre>
+
+
+
+
 Config Class
 Por defecto, CodeIgniter tiene un archivo primario de configuracion, ubicado en application/config/config.php. Si abres un archivo usando tu editor de texto verás que los items son almacenados en un arreglo llamado $config.
 
 Puedes agregar tus propios items de configuración a este archivo, o si lo prefieres, puedes mantenerlos en forma separada (asumiendo que necesitas items de configuración), simplemente debes crear tu archivo de configuración y guardarlo en la carpeta config.
 
 <pre><code>$this->config->load('nombre_archivo')</code></pre>
+
+Caching Driver
+
+<pre><code>
+En el ejemplo siguiente se carga el controlador de memoria caché, APC como driver a utilizar, y cambia a almacenamiento en caché basado en archivo si APC no está disponible en el entorno de alojamiento.
+$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
+
+if ( ! $foo = $this->cache->get('foo'))
+{
+        echo 'Saving to the cache!<br />';
+        $foo = 'foobarbaz!';
+
+        // Save into the cache for 5 minutes
+        $this->cache->save('foo', $foo, 300);
+}
+
+echo $foo;
+</code></pre>
+
 
 Email Class
 
