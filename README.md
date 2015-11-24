@@ -119,7 +119,7 @@ Por defecto, CodeIgniter tiene un archivo primario de configuracion, ubicado en 
 
 Puedes agregar tus propios items de configuración a este archivo, o si lo prefieres, puedes mantenerlos en forma separada (asumiendo que necesitas items de configuración), simplemente debes crear tu archivo de configuración y guardarlo en la carpeta config.
 
-$this->config->load('nombre_archivo')</code></pre>
+$this->config->load('nombre_archivo')</pre></code>
 
 Caching Driver
 
