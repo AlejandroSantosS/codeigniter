@@ -25,8 +25,11 @@
 <h3>Librerias utilizadas</h3>
 
 Shopping Cart Class
+
+<pre><code>
 Para agregar un ítem al carrito, podemos utilizar un array multidimensional con la información del producto a la función $this- >cart->insert(), según se muestra aquí:
-<pre><code>$data = array(
+
+$data = array(
                array(
                        'id'      => 'sku_123ABC',
                        'qty'     => 1,
@@ -72,11 +75,14 @@ echo $this->calendar->generate(2006, 6, $data);
 
 
 Config Class
+
+
+<pre><code>
 Por defecto, CodeIgniter tiene un archivo primario de configuracion, ubicado en application/config/config.php. Si abres un archivo usando tu editor de texto verás que los items son almacenados en un arreglo llamado $config.
 
 Puedes agregar tus propios items de configuración a este archivo, o si lo prefieres, puedes mantenerlos en forma separada (asumiendo que necesitas items de configuración), simplemente debes crear tu archivo de configuración y guardarlo en la carpeta config.
 
-<pre><code>$this->config->load('nombre_archivo')</code></pre>
+$this->config->load('nombre_archivo')</code></pre>
 
 Caching Driver
 
