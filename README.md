@@ -24,7 +24,20 @@
 
 Caching Driver
 
-<pre><code></code></pre>
+<pre><code>
+$this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
+
+if ( ! $foo = $this->cache->get('foo'))
+{
+        echo 'Saving to the cache!<br />';
+        $foo = 'foobarbaz!';
+
+        // Save into the cache for 5 minutes
+        $this->cache->save('foo', $foo, 300);
+}
+
+echo $foo;
+</code></pre>
 
 Calendaring Class
 
@@ -43,6 +56,31 @@ echo $this->calendar->generate(2006, 6, $data);
 
 
 Shopping Cart Class
+<pre><code>$data = array(
+               array(
+                       'id'      => 'sku_123ABC',
+                       'qty'     => 1,
+                       'price'   => 39.95,
+                       'name'    => 'T-Shirt',
+                       'options' => array('Size' => 'L', 'Color' => 'Red')
+                    ),
+               array(
+                       'id'      => 'sku_567ZYX',
+                       'qty'     => 1,
+                       'price'   => 9.95,
+                       'name'    => 'Coffee Mug'
+                    ),
+               array(
+                       'id'      => 'sku_965QRS',
+                       'qty'     => 1,
+                       'price'   => 29.95,
+                       'name'    => 'Shot Glass'
+                    )
+            );
+
+$this->cart->insert($data);
+</code></pre>
+
 Config Class
 Email Class
 Encrypt Class
