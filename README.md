@@ -12,7 +12,7 @@
 
 <ul>
   <li>¿Que es CI?</li>
-  <li>Razones por las que usar CI como framework de desarrollo en seridor.</li>
+  <li>Razones por las que usar CI como framework de desarrollo en servidor.</li>
   <li>Arquitectura MVC</li>
   <li>Pros y Contras del MVC</li>
   <li>Ventajas de usar CI</li>
